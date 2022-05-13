@@ -7,19 +7,107 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
-    background-color: #1F2937;
+    object-fit: cover;
     color: #f9faf8;
+    justify-content: space-between;
     align-items: center;
+    background-color: #1F2937;
+    padding: 16px 10%;
 }
 
 .header-logo{
     font-size: 24px;
-    padding: 16px;
+    font-weight:900;
+    flex: 1;
 }
+
 ul {
+    margin-left: auto;
     display: flex;
     list-style: none;
-    margin: 0;
     gap: 16px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.main1 {
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 5% 10% ;
+    height: 25vh;
+    
+}
+.main1-box {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.main1-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.hero-main {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.main-lefttext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 6PX;
+    font-size: 18px;
+    border: 0;
+    padding: 2px 32px;
+}
+
+.main1-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #737475;
+}
+
+.main2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25vh;
+    margin-bottom: 32px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    height: 50%;
+}
+.box {
+    height: 100%;
+    width: 100%;
+
+    border: solid #3882f6;
+    
 }
