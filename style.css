@@ -7,7 +7,6 @@ body {
 
 .header {
     display: flex;
-    object-fit: cover;
     color: #f9faf8;
     justify-content: space-between;
     align-items: center;
@@ -150,13 +149,14 @@ h2 {
 
 .bluebox {
     display: flex;
-    justify-content: space-between;
     padding: 3% 10%;
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 6PX;
     font-size: 18px;
-    gap: 16px;
+    gap: 32px;
+    height: 100%;
+
 }
 
 .main4-left {
@@ -172,12 +172,16 @@ h2 {
 }
 
 .main4-right{
+    flex: 1;
+    margin-left: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:flex-end;
 }
 
 .main4-right button{
+    flex: 1;
+
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 6PX;
@@ -185,4 +189,14 @@ h2 {
     padding: 2px 32px;
     border-color: #f9faf8;
     border-style: solid;
+}
+
+.footer {
+    font-size: 18px;
+    background-color: #1F2937;
+    color: #f9faf8;
+    align-self: stretch;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
 }
